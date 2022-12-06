@@ -1,7 +1,7 @@
 import "./App.css";
 
 import { useState, useEffect } from "react";
-import io from "socket.io-client";
+import io from "socket.io/node_modules/socket.io-client";
 import { nanoid } from "nanoid";
 
 const socket = io.connect("https://chat-on-server.vercel.app/");
